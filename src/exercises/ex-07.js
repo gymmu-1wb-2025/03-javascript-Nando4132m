@@ -1,6 +1,7 @@
 const mynumber = Number(process.argv[2]);
-const remainder = mynumber % Number(process.argv[3]);
-const divider = Number(process.argv[3]);
+const mydivider = Number(process.argv[3]);
+const remainder = mynumber % mydivider;
+const divider = mydivider;
 console.log(`Deine Zahl ist ${mynumber}`);
 
 if (remainder === 0) {
